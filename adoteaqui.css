@@ -1,28 +1,27 @@
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
 nav {
   display: flex;
+  align-items: center;
+}
+
+#abertura {
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+
 }
 
 .adoteaqui {
-  background-color: yellow;
-  justify-content: flex-start;
-  align-items: flex-start;
+  background-color: rgb(226, 175, 255);
   width: 50%;
-  padding-left: 10px;
-  color: gray;
+  height: 60px;
+  align-items: center;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.adoteaqui:hover h1 {
-  font-size: 27px;
+  font-style: bold;
 }
 
 .menu {
-  background-color: gray;
+  background-color: rgb(226, 175, 255);
   display: flex;
   justify-content: flex-end;
   width: 50%;
@@ -30,11 +29,7 @@ nav {
   padding-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-}
-
-.menu:hover {
-  color: rgb(168, 168, 117);
-
+  height: 60px;
 }
 
 a {
@@ -51,4 +46,39 @@ a {
     width: 100%;
     flex-direction: column;
   }
+}
+
+.adoteaqui:hover {
+  font-size: 20px;
+  align-items: center;
+}
+
+.elem1:hover {
+  color: rgb(157, 78, 221);
+  font-size: 15px;
+}
+
+.elem2:hover {
+  color: rgb(157, 78, 221);
+  font-size: 15px;
+}
+
+.elem3:hover {
+  color: rgb(157, 78, 221);
+  font-size: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(226, 175, 255);
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
 }
